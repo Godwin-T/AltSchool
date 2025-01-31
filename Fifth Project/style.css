@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F5F8FA;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 40px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 42px;
+    align-items: center;
+}
+ul li a {
+    font-size: 14px;
+    font-weight: 700;
+}
+.account {
+    padding: 19px;
+    border: 2px solid #646E7A;
+    border-radius: 6px;
+}
+hr {
+    height: 2px;
+    color: red;
+    background: #E0E6EA;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+main {
+    width: 892px;
+    margin: 0 auto;
+    margin-top: 85px;
+    display: flex;
+}
+main div.checkout {
+    width: 580px;
+    padding: 48px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0px 5px 15px 0px #0000000D;
+
+box-shadow: 0px 15px 35px 0px #2B404E18;
+
+    /* background: red; */
+}
+main div.freelancer {
+    width: 312px;
+    background: #1179BF;
+    padding: 42px 37px 0 44px;
+    color: #FFFFFF;
+    /* background-color: blue; */
+}
+
+.checkout h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.checkout hr {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 34px;
+    background: #F5F7FA;
+}
+
+.checkout form h2 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+.checkout form h2 span {
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #548BC5;
+    border-radius: 100%;
+    color: #548BC5;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    margin-right: 4px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.checkout form div label {
+    display: block;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    margin-bottom: 7px;
+}
+.checkout form div input{
+    background: #EDEFF2;
+    border: 0;
+    height: 36px;
+    padding: 0 13px;
+    color: #646E7A;
+    width: 100%;
+    border-radius: 5px;
+}
+.checkout form div.email{
+    margin-top: 15px;
+}
+.checkout form div.email input {
+    width: 370px;
+}
+.checkout form div input:focus{
+    border: 1px solid red;
+}
+
+.credit-info {
+    margin-top: 33px;
+}
+.credit-card-input {
+    margin-bottom: 41px;
+}
+.credit-card-input div {
+    position: relative;
+}
+.credit-card-input div div {
+    color: #646E7A;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+}
+.credit-card-input div div span{
+    margin-left: 15px;
+}
+
+form button{
+    background: #038E7D;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 52px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 23px;
+}
+form p {
+    font-size: 14px;
+    font-weight: 400;
+}
+form p span {
+    font-weight: 700;
+}
+form .footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 34px;
+}
+
+/* freelancing page */
+.freelancer {
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.freelancer h3 {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+.freelancer h4 {
+    font-family: Lato;
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 5px;
+
+}
+
+.freelancer h4 span {
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    letter-spacing: -0.014999999664723873px;
+}
+.freelancer h4 span:last-child {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+
+}
+.freelancer h5 {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 36px;
+}
+
+.freelancer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    list-style-position: inside;
+    margin-bottom: 38px;
+    gap: 13px;
+}
+.freelancer ul li {
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    background: url('/assets/Combined\ Shape.svg') left center no-repeat;
+    padding-left: 33px; 
+}
+
+.freelancer p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 41px;
+    
+}
+.freelancer p span {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.freelancer hr {
+    width: 224px;
+    margin: 0;
+    background: #FFFFFF;
+    height: 2px;
+    margin-bottom: 43px;
+}
+
+.freelancer p.chochocho {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 17px;
+}
+
+.freelancer p:last-child span {
+    font-weight: 700;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.user-info img {
+    border-radius: 100%;
+}
+.user-info span {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+}

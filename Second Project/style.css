@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    padding-top: 96px;
+    padding-bottom: 64px;
+    background: #FFFFFF;
+    border-color: #999999;
+    border-width: 8px;
+}
+.top div {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top h1 {
+    /* font-family: ; */
+    font-weight: 800;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 48px;
+}
+div p {
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+}
+.top div, .second-p{
+    margin-bottom: 16px;
+}
+.top div:last-child {
+    margin-bottom: 0;
+}
+.top p span {
+    color: #009966;
+}
+
+.bottom {
+    background: #666666;
+    padding-top: 72px;
+    padding-bottom: 66px;
+}
+.bottom div {
+    width: 800px;
+    padding-top: 92px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right: 24px;
+    margin: auto;
+    background: #FFFFFF;
+    position: relative;
+}
+.bottom div.relative {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    height: 60px;
+    width: 334px;
+    position: absolute;
+    padding: 0;
+    top: 8px;
+    left: -8px;
+    background: #FFBF00;
+    padding: 16px 32px 15px 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .top  {
+        padding-left: 24px;
+    }
+    .top div, .bottom div{
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width: 390px) {
+    .bottom div.relative{
+        width: 100%;
+    }
+       
+}

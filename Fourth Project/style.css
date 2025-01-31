@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mobile {
+    display: none;
+}
+main {
+    background: rgb(247, 253, 252);
+    display: flex;
+    padding-top: 81px;
+    padding-bottom: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+main div, main form {
+    flex: 1;
+}
+main  div.text {
+    width: 460px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main div img {
+    width: 77.33px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+main div h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000B0A;
+}
+main div p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+main form {
+    min-height: 679px;
+    max-width: 580px;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+
+}
+main form .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+main form label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+main form input, main form select{
+    width: 100%;
+    padding: 14px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    outline: red;
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    color: #011C34;
+}
+main form select, main form  input::placeholder{
+    color: #737373;
+}
+
+main form .grid div input:focus {
+    border: 1px solid #2EC4B6;
+}
+
+.bottom {
+    margin-top: 30px;
+}
+.bottom div {
+    margin-bottom: 30px;
+}
+.relative {
+    position: relative;
+}
+.relative input {
+    padding-right: 35px;
+}
+.relative img {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+}
+button {
+    width: 100%;
+    background: #2EC4B6;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 2px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.bottom p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.bottom p span {
+    color: #2EC4B6;
+}
+
+@media screen and (max-width: 950px) {
+    main {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 892px) {
+    main {
+      flex-direction: column;
+      padding-top: 24px;
+    }
+    main  div.text {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        height: auto;
+        margin-bottom: 40px;
+        
+    }
+    main form{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    main form .grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
