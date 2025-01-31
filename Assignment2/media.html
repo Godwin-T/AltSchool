@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Experience</title>
+</head>
+<body>
+
+    <header><h2>Welcome to my Media Page</h2></header>
+    <!--Picture sections-->
+    <section>
+        <picture>
+            <!-- Image for mobile devices -->
+            <source srcset="./assest/images/image-small.jpg" media="(max-width: 600px)">
+            <!-- Image for tablets -->
+            <source srcset="./assest/images/image-medium.jpg" media="(min-width: 601px) and (max-width: 1024px)">
+            <!-- Image for desktops -->
+            <source srcset="./assest/images/image-large.jpg" media="(min-width: 1025px)">
+            <!-- Default image if no media query matches -->
+            <img src="./assest/images/image-default.jpg" alt="A picture of myself" width="1000" height="auto" >      
+        </picture>
+    </section>  
+    
+    <!--Video Section-->
+    <section>
+        <h2>Watch My Intro Video</h2>
+        <video width="560" height="315" controls>
+            <source src="./assest/videos/intro-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Embedded Content (YouTube Video) -->
+    <section>
+        <h2>My Favorite Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WF-xx5yvyHw?si=mv5ALjBolFOXuz1v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+</body>
+</html>

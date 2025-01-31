@@ -1,0 +1,63 @@
+
+Grid Layout
+Photo Gallery
+
+Create a responsive photo gallery using the CSS Grid. Experiment with grid-template-rows, grid-template-columns, and gap.
+Bonus: Make the layout change for mobile devices with @media queries.
+Webpage Layout
+
+Design a basic webpage with a header, navigation bar, main content area, sidebar, and footer using Grid.
+Add areas using grid-template-areas for easy customization.
+Flex Layout
+Navigation Bar
+
+Build a horizontal navigation bar using Flexbox. Ensure it aligns properly and is fully responsive.
+Add hover effects for each menu item.
+Card Layout
+
+Create a row of cards (e.g., product cards) that automatically wrap on smaller screens.
+Use properties like flex-wrap, justify-content, and align-items.
+CSS Variables
+Theming
+
+Create a webpage with light and dark themes. Define colors as CSS variables and switch themes by toggling a class.
+css
+Copy code
+:root {
+  --background-color: white;
+  --text-color: black;
+}
+
+.dark-theme {
+  --background-color: black;
+  --text-color: white;
+}
+Reusable Styles
+
+Design buttons with CSS variables for colors, font sizes, and paddings. Change the variables to update all buttons easily.
+Advanced Tasks
+Responsive Design
+
+Design a webpage that looks great on desktop, tablet, and mobile using a combination of Grid, Flexbox, and @media queries.
+Animations
+
+Use @keyframes and CSS properties like transition to create hover animations for buttons or other elements.
+Example: A button that changes color and slightly increases in size when hovered.
+Interactive Pricing Table
+
+Build a pricing table where the current plan is highlighted. Use hover effects and CSS transitions to animate the highlight.
+Creative Challenges
+Portfolio Website
+
+Design a portfolio website with sections like "About Me," "Projects," and "Contact."
+Use CSS Grid for the main layout and Flexbox for individual components.
+Product Landing Page
+
+Create a product landing page featuring an attractive hero section, testimonials, and pricing. Use Grid and Flexbox to arrange elements dynamically.
+CSS Art
+
+Recreate a simple shape (like a star or a cloud) using only CSS shapes and positioning.
+Tools and Resources
+Developer Tools: Use browser DevTools to inspect and tweak your styles in real time.
+CSS Grid Generator: Tools like CSS Grid Generator to help you practice.
+Flexbox Froggy: A fun game to master Flexbox! Flexbox Froggy
